@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<responseparam>
+		<production>
+			<taskID> 20130408001N POP</taskID>
+			<!--共性产品生产相关的需求参数 -->
+			<proposal isFeasibility="true">
+				<productdate>2014-09-01</productdate>
+				<!--告知何时可以开始生产 -->
+				<productcycle>20</productcycle>
+				<!--产品生产周期 -->
+				<fee>20</fee>
+				<name>LAI</name>
+				<!--共性产品名称 -->
+				<coverscope>116.8396,37.0679,120.0916,40.4077</coverscope>
+				<!--空间覆盖范围 -->
+				<spaceresolution></spaceresolution>
+				<!--空间分辨率 -->
+				<startdate>2013-06-01</startdate>
+				<!--开始时间 -->
+				<enddate>2013-07-01</enddate>
+				<needAssimilation>true</needAssimilation>
+				<!--是否需要同化 -->
+				<needValidation>true</needValidation>
+				<!--是否需要真实性检验 -->
+				<extinfo>
+					<item name="i1">v1</item>
+				</extinfo>
+			</proposal>
+		</production>
+		<observation>
+			<bounds> 116.8396,37.0679,120.0916,40.4077</bounds>
+			<!-- 覆盖范围 -->
+			<satellites>
+				<satellite>
+					<satelliteid> BJ1</satelliteid>
+					<!-- 卫星 -->
+					<sensorids> MS,PAN</sensorids>
+					<!-- 传感器 -->
+				</satellite>
+			</satellites>
+			<startdate>2013-06-01</startdate>
+			<!-- 成相开始时间 -->
+			<enddate>2013-07-01</enddate>
+			<!-- 成相结束时间 -->
+			<coverpercent>80</coverpercent>
+			<!-- 成相覆盖度，百分比 -->
+		</observation>
+	</responseparam>
+</root>

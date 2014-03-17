@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client"
+	xmlns:order="urn:import:org.xjd.client">
+	
+	<g:DockLayoutPanel unit='EM'>
+	<g:north size='7'>
+    <g:HTMLPanel>
+  	<h1>订单与共性产品接口</h1>
+    </g:HTMLPanel>
+    </g:north>
+	<g:center>
+         <g:ScrollPanel>
+          <!--  g:west size='150'-->
+          <g:VerticalPanel>
+	        <g:HorizontalPanel>
+	        <order:OrderFetch ui:field='OrderFetchPanel' />
+	        <order:OrderInput ui:field='OrderInputPanel' />
+	        </g:HorizontalPanel>
+	        <order:NormalProduct ui:field='NormalProductPanel' />
+	         </g:VerticalPanel>
+	       <!-- /g:west-->
+         </g:ScrollPanel>
+	</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder> 

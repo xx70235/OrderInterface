@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>OrderFetchServlet</servlet-name>
+		<servlet-class>org.xjd.server.OrderFetchServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>OrderFetchServlet</servlet-name>
+		<url-pattern>/orderinterface/OrderFetch</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrderInputServlet</servlet-name>
+		<servlet-class>org.xjd.server.OrderInputServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>OrderInputServlet</servlet-name>
+		<url-pattern>/orderinterface/OrderInput</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NormalProductServlet</servlet-name>
+		<servlet-class>org.xjd.server.NormalProductServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NormalProductServlet</servlet-name>
+		<url-pattern>/orderinterface/NormalProduct</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BookNormalProductServlet</servlet-name>
+		<servlet-class>org.xjd.server.BookNormalProductServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BookNormalProductServlet</servlet-name>
+		<url-pattern>/orderinterface/BookNormalProduct</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NormalProductFeasibilityServlet</servlet-name>
+		<servlet-class>org.xjd.server.NormalProductFeasibilityServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NormalProductFeasibilityServlet</servlet-name>
+		<url-pattern>/orderinterface/NormalProductFeasibility</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>NormalProductModifyServlet</servlet-name>
+		<servlet-class>org.xjd.server.NormalProductModifyServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NormalProductModifyServlet</servlet-name>
+		<url-pattern>/orderinterface/NormalProductModify</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>OrderInterface.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	
+	<g:HTMLPanel width='30%'>
+		<g:CaptionPanel captionText="本地订单下达">
+			<g:VerticalPanel>
+				<g:HorizontalPanel>
+				<g:Label text="订单类型："/>
+					<g:ListBox ui:field="cmOrderType"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel>
+					<g:Label text="订单名称：" ui:field="lbName"/>
+					<g:TextBox ui:field="tbOrderName"/>
+				</g:HorizontalPanel>
+			<g:HorizontalPanel>
+					<g:Label text="开始时间：" ui:field="lbStartTime"/>
+					<p1:DateBox ui:field="dtbStarttime"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel>
+					<g:Label text="结束时间：" ui:field="lbEndTime"/>
+					<p1:DateBox ui:field="dtbEndtime"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel>
+					<g:Label text="空间范围：" ui:field="lbRange"/>
+					<g:TextBox ui:field="tbRange"/>
+				</g:HorizontalPanel>
+					<g:HorizontalPanel>
+				<g:Label text="区域："/>
+					<g:ListBox ui:field="cmRangeScale"/>
+				</g:HorizontalPanel>
+				<g:Button ui:field="btRegister" text="确定"/>
+			</g:VerticalPanel>
+		</g:CaptionPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

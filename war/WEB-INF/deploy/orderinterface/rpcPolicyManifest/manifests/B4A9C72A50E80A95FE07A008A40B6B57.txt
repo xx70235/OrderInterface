@@ -1,0 +1,2 @@
+serviceClass: org.xjd.client.NormalProductService
+path: 291D76411613E76C4D9693E97B26037E.gwt.rpc

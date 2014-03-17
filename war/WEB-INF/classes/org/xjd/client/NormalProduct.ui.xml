@@ -1,0 +1,56 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client"
+	xmlns:p2="urn:import:com.google.gwt.user.cellview.client" xmlns:order="urn:import:org.xjd.client">
+	<g:HTMLPanel>
+		<g:HorizontalPanel>
+			<g:VerticalPanel>
+				<g:CaptionPanel captionText="共性产品检索">
+					<g:VerticalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="共性产品类型：" />
+							<g:ListBox ui:field="cmNormalType" />
+						</g:HorizontalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="共性产品名称：" />
+							<g:TextBox ui:field="tbNormalName" />
+						</g:HorizontalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="开始时间：" />
+							<p1:DateBox ui:field="dtbStarttime" />
+						</g:HorizontalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="结束时间：" />
+							<p1:DateBox ui:field="dtbEndtime" />
+						</g:HorizontalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="空间范围：" ui:field="lbRange" />
+							<g:TextBox ui:field="tbRange" />
+						</g:HorizontalPanel>
+						<g:Button ui:field="btNormalPQuery" text="检索" />
+					</g:VerticalPanel>
+				</g:CaptionPanel>
+				<g:CaptionPanel captionText="共性产品检索">
+					<g:VerticalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="共性产品编号：" />
+							<g:TextBox ui:field="tbNormalID" />
+						</g:HorizontalPanel>
+						<g:HorizontalPanel>
+							<g:Label text="共性产品名称：" />
+							<g:TextBox ui:field="tbNormalName1" />
+						</g:HorizontalPanel>
+						<g:Button ui:field="btNormalPDetialQuery" text="检索" />
+					</g:VerticalPanel>
+				</g:CaptionPanel>
+			</g:VerticalPanel>
+			<g:CaptionPanel captionText="检索结果">
+				<p2:CellTable ui:field="tabNormalProduct"/>
+			</g:CaptionPanel>
+			<g:CaptionPanel captionText="共性产品生产需求可行性">
+				<order:NormalProductFeasibility
+					ui:field="normalProductFeasibilityPanel" />
+			</g:CaptionPanel>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

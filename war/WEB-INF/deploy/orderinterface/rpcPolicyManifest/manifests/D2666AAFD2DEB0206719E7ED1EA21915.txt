@@ -1,0 +1,2 @@
+serviceClass: org.xjd.client.OrderInputService
+path: 91085E78F655B3077670632A2F7FA698.gwt.rpc

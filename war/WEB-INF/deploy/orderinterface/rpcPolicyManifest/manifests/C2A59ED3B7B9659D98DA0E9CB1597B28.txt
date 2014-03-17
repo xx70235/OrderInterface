@@ -1,0 +1,2 @@
+serviceClass: org.xjd.client.GreetingService
+path: 3D1384BE3ABBBCC5BAE25202089B82AA.gwt.rpc

@@ -1,0 +1,63 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="TaskId："/>
+				<g:TextBox ui:field="tbTaskId"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="共性产品名称"/>
+				<g:TextBox ui:field="tbName"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="开始生产日期："/>
+				<p1:DateBox ui:field="dtbProductDate"/>
+			</g:HorizontalPanel>
+		
+			<g:HorizontalPanel>
+				<g:Label text="产品生产周期："/>
+				<g:TextBox ui:field="tbProductCycle"/>
+				</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="产品生产费用（元）："/>
+				<g:TextBox ui:field="tbFee"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="空间覆盖范围："/>
+				<g:TextBox ui:field="tbCoverRange"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="空间分辨率："/>
+				<g:TextBox ui:field="tbSpaceResolution"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="开始时间："/>
+				<p1:DateBox ui:field="dtbStartDate"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="结束时间："/>
+				<p1:DateBox ui:field="dtbEndDate"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:CheckBox text="是否需要同化" ui:field="cbNeedAssimilation"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:CheckBox text="是否需要验证" ui:field="cbNeedValidation"/>
+			</g:HorizontalPanel>
+			
+		
+			<g:HorizontalPanel>
+				<g:Button text="确认" ui:field="btConfirm"/>
+				
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

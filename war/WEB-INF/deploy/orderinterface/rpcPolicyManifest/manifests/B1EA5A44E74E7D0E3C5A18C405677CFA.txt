@@ -1,0 +1,2 @@
+serviceClass: org.xjd.client.BookNormalProductService
+path: EDBB6980303B06C4C991551C0A5A174A.gwt.rpc

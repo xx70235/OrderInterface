@@ -1,0 +1,2 @@
+serviceClass: org.xjd.client.OrderFetchService
+path: 912CEE44E1C58504E673E33348F00E11.gwt.rpc

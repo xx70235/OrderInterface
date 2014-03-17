@@ -1,0 +1,39 @@
+.gwt-TextBox {
+  padding: 5px 4px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #999;
+  font-size: small;
+  font-family: Arial Unicode MS, Arial, sans-serif;
+  width: 200px;
+}
+.gwt-TextBox-readonly {
+  color: #888;
+}
+.gwt-PasswordTextBox {
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #999;
+  font-size: 100%;
+}
+.gwt-PasswordTextBox-readonly {
+  color: #888;
+}
+.gwt-TextArea {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #666;
+  font-size: 100%;
+  font-family: Arial Unicode MS, Arial, sans-serif;
+}
+.gwt-TextArea-readonly {
+  color: #888;
+}
+
+.gwt-DateBox
+{
+	 width: 200px;
+}
+
+.gwt-Label{
+	width: 120px ;
+}
