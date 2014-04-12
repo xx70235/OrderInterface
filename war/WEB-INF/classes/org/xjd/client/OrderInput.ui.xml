@@ -3,7 +3,7 @@
 	xmlns:g="urn:import:com.google.gwt.user.client.ui"
 	xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
 	
-	<g:HTMLPanel width='30%'>
+	<g:HTMLPanel width='30%' height='50%'>
 		<g:CaptionPanel captionText="本地订单下达">
 			<g:VerticalPanel>
 				<g:HorizontalPanel>

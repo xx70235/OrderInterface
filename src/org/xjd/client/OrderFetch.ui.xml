@@ -2,7 +2,7 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client"
 	xmlns:p2="urn:import:com.google.gwt.user.cellview.client">
-	<g:HTMLPanel>
+	<g:HTMLPanel height='50%'>
 
 
 		<g:HorizontalPanel>

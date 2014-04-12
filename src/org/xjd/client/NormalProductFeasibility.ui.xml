@@ -6,7 +6,7 @@
 		font-weight: bold;
 	}
 	</ui:style>
-	<g:HTMLPanel>
+	<g:HTMLPanel height='50%'>
 		<g:VerticalPanel>
 			<g:HorizontalPanel>
 				<g:Label text="TaskId："/>
